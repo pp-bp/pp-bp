@@ -13,8 +13,8 @@ import sys
 import json
 import logging
 import threading
-# logging.basicConfig(level=logging.WARNING, format='%(message)s', )
-logging.basicConfig(level=logging.DEBUG, format='%(message)s', )
+logging.basicConfig(level=logging.WARNING, format='%(message)s', )
+# logging.basicConfig(level=logging.DEBUG, format='%(message)s', )
 try:
     import feedparser
 except Exception as e:
